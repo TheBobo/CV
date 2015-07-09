@@ -1,0 +1,189 @@
+body, p, div, img, span, h1
+{
+	padding:0px;
+	margin:0px;
+}
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+
+#left-side{
+	float:left;
+	width:300px;
+	background-color:#37b56e;
+	position:relative;
+	color:#fff;
+	padding-left:20px;
+	padding-right:20px;
+	clear:right;
+	height:4400px;
+}
+
+#cvImage{
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+#left-side .header{
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	/*margin-left:20px;
+	margin-right:20px;*/
+	border-bottom:2px solid #fff;
+	position:relative;
+	margin-top:50px;
+}
+
+.header img{
+	position: absolute;
+	left: auto;
+	right: 0;
+	top:-27px;
+}
+
+.ContDet{
+	margin-top:10px;
+}
+
+.ContDet img{
+	margin-right:20px; 
+}
+
+.lang{
+	margin-top:1px;
+}
+
+.top{
+	margin-top:10px;
+}
+
+
+
+/*right-side*/
+#right-side{
+	padding-left:50px;
+	padding-right:50px;
+	float:left;
+	width:500px;
+	max-width:500px;
+	
+}
+
+#right-side h1{
+	color:#37b56e;
+}
+
+#right-side .title{
+	color:#37b56e;
+	border-bottom:2px solid #ccc;
+	margin-top:50px;
+	position:relative;
+	font-weight:bold;
+}
+
+#right-side .title img{
+	position: absolute;
+	left: auto;
+	right: 0;
+	top:-27px;
+}
+
+#pfInfo{
+
+}
+
+#pfInfo .label{
+	color:#37b56e;
+}
+
+.titleEmp{
+	width:120px;
+	display:inline-block;
+	float:left;
+	clear:left;
+	color:#ccc;
+	position:relative;
+}
+
+.ma, .holder{
+	/*margin-top:20px;*/
+}
+
+
+	.valueEmp{
+	display:inline-block;
+	width:360px;
+	padding-left:10px;
+	/*margin-left:120px;*/
+}	
+
+.border{
+	border-bottom:2px solid #ccc;
+	margin-top:10px;
+}
+
+.holder{
+	display:block;
+	position:relative;
+	margin-top:10px;
+}
+
+#empl .sch4, #educate .sch4{
+	min-height:40px;
+}
+
+#educate .sch{
+	min-height:60px;
+}
+
+.edu .holder{
+	margin-top:30px;
+}
+
+#skills{
+	margin-top:20px;
+	position:relative;	
+	}
+
+.sk{
+	width:200px;
+	display:inline-block;
+	
+	font-size:20px;
+}
+
+#PersonalSkills{
+	position:absolute;
+	margin-left:200px;
+	top:0;
+}
+
+.sk p{
+	color:#000;
+}
+
+.hd{
+	margin-bottom:15px;
+	color:#777 !important;
+}
+
+.lSkills{
+	margin-top:15px;
+	display:inline-block;
+}
+
+.clear:after{
+	content:"";
+	clear:both;
+}
+
+#projects .title img{
+    top:-31px;
+}
+
+#myAI{
+    margin-top:10px;
+}
